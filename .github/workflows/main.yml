@@ -10,25 +10,31 @@ jobs:
       matrix:
         python-version: ["3.10"]
     steps:
-      - uses: browser-actions/setup-chrome@latest
-      - run: chrome --version
-      - uses: actions/checkout@v3
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+        run: chrome --version
+
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
       - name: Test with pytest
         run: |
           py.test -n 4 --alluredir=allure_report tests/test_signup.py 
 #          allure serve allure_report
 
       - name: Get Allure history
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         if: always()
         continue-on-error: true
         with:
@@ -41,10 +47,10 @@ jobs:
         if: always()
         #id: allure-report
         with:
-          allure_results: allure-report
+          allure_results: allure_report
 #          gh_pages: gh-pages
 #          allure_report: allure-report
-#          allure_history: allure-history/allure-history
+          allure_history: allure-history
           keep_reports: 5
 
       - name: Deploy report to Github Pages
@@ -53,5 +59,5 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history/allure-history
+          PUBLISH_DIR: allure-history
 
