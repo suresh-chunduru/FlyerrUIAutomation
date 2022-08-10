@@ -16,5 +16,23 @@
     "name": "btn_menuLogout",
     "locateUsing": "xpath",
     "locator": "//button[@role='menuitem']//span[contains(text(), 'Log Out')]"
+  },
+    {
+    "pageName": "LoggedInPage",
+    "name": "link_post_a_request",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='top-nav-bar']//ul//div//li[text()=' Post a Request ']"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "link_my_jobs",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='top-nav-bar']//ul//div//li[text()=' My Jobs ']"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "link_find_jobs",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='top-nav-bar']//ul//div//li[text()=' Find Jobs ']"
   }
 ]

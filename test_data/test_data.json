@@ -1,111 +1,128 @@
 {
-    "environment": "https://www.flyerr.io",
-    "browser": "chrome",
-    "loginPage":
-    {
-        "title": "Sign in to Flyerr Marketplace",
-        "loginErrorInvalidCredentials": "Invalid username or password"
-    },
-    "signUpPage":
-    {
-        "title": "Register",
-        "signUpErrorExistingUsername": "Username already exists",
-        "signUpErrorExistingEmail": "Email already exists"
-    },
-    "adminPage":
-    {
-        "title": "Flyer",
-        "signUpErrorExistingUsername": "Username already exists",
-        "signUpErrorExistingEmail": "Email already exists"
-    },
-    "countrySettingsPage":
-    {
-        "title": "Flyer",
-        "headerTextCountrySettings": "Country Settings",
-        "columnHeaders" : ["Code","Name","Currency","Tax%","Milestone Threshold", "Status"],
-        "firstPageFirstRowCountryName": "Andorra",
-        "lastPageLastRowCountryName": "Zimbabwe",
-        "2ndPageLastRowCountryName": "Belgium",
-        "LastPrevPageFirstRowCountryName":"Ukraine"
-    },
-
-    "loginData":
-    {
-        "admin":
-        {
-            "username" : "Flyerr",
-            "password" : "Flyerr@123"
-        },
-        "individual":
-        {
-            "username" : "suresh.c",
-            "password" : "Secure@123"
-        },
-        "business":
-        {
-            "username" : "sai.ch",
-            "password" : "Secure@123"
-        },
-        "invalid":
-        {
-            "username" : "invalid.username",
-            "password" : "Secure@123"
-        },
-        "google":
-        {
-            "username" : "sunny123suresh",
-            "password" : "Indra123svusvu"
-        }
-    },
-    "signUpData":
-    {
-        "individual":
-        {
-            "firstname": "Sam",
-            "lastname": "John",
-            "email": "sam.john",
-            "username": "sam.john"
-        },
-        "existingUserName":
-        {
-            "firstname": "Sam",
-            "lastname": "John",
-            "email": "sam.john@john.com",
-            "username": "suresh.c"
-        },
-        "existingEmail":
-        {
-            "firstname": "Sam",
-            "lastname": "John",
-            "email": "sunny123suresh@gmail.com",
-            "username": "sunny123"
-        }
-    },
-    "profileData":
-    {
-        "editProfile":
-        {
-            "publicDisplayName": "sunny123",
-            "minHourRate": "200",
-            "maxHourRate": "300",
-            "projectRate": "1000",
-            "respondsTime": "hour"
-        },
-        "editSkills":
-        {
-            "skills": ["cooking","painting","delivery","catering"]
-        },
-        "editServices":
-        {
-            "services": ["3D Rendering","Academic Writing","Accounting"]
-        },
-        "addListingsAndPackages":
-        {
-            "title": "PlatinumPackage",
-            "serviceCategory": "Account Creation",
-            "minPrice": "500",
-            "maxPrice": "1500",
-            "details": "Platinum package with offers"
-        }
-    }
+	"environment": "https://www.flyerr.io",
+	"browser": "chrome",
+	"loginPage": {
+		"title": "Sign in to Flyerr Marketplace",
+		"loginErrorInvalidCredentials": "Invalid username or password"
+	},
+	"signUpPage": {
+		"title": "Register",
+		"signUpErrorExistingUsername": "Username already exists",
+		"signUpErrorExistingEmail": "Email already exists"
+	},
+	"adminPage": {
+		"title": "Flyer",
+		"signUpErrorExistingUsername": "Username already exists",
+		"signUpErrorExistingEmail": "Email already exists"
+	},
+	"countrySettingsPage": {
+		"title": "Flyer",
+		"headerTextCountrySettings": "Country Settings",
+		"columnHeaders": [
+			"Code",
+			"Name",
+			"Currency",
+			"Tax%",
+			"Milestone Threshold",
+			"Status"
+		],
+		"firstPageFirstRowCountryName": "Andorra",
+		"lastPageLastRowCountryName": "Zimbabwe",
+		"2ndPageLastRowCountryName": "Belgium",
+		"LastPrevPageFirstRowCountryName": "Ukraine"
+	},
+	"loginData": {
+		"admin": {
+			"username": "Flyerr",
+			"password": "Flyerr@123"
+		},
+		"individual": {
+			"username": "suresh.c",
+			"password": "Secure@123"
+		},
+		"business": {
+			"username": "sai.ch",
+			"password": "Secure@123"
+		},
+		"invalid": {
+			"username": "invalid.username",
+			"password": "Secure@123"
+		},
+		"google": {
+			"username": "sunny123suresh",
+			"password": "Indra123svusvu"
+		},
+		"requestor": {
+			"username": "PavanCMI",
+			"password": "Test@123"
+		},
+		"flyer": {
+			"username": "Dummy",
+			"password": "Test@123"
+		}
+	},
+	"signUpData": {
+		"individual": {
+			"firstname": "Sam",
+			"lastname": "John",
+			"email": "sam.john",
+			"username": "sam.john"
+		},
+		"existingUserName": {
+			"firstname": "Sam",
+			"lastname": "John",
+			"email": "sam.john@john.com",
+			"username": "suresh.c"
+		},
+		"existingEmail": {
+			"firstname": "Sam",
+			"lastname": "John",
+			"email": "sunny123suresh@gmail.com",
+			"username": "sunny123"
+		}
+	},
+	"profileData": {
+		"editProfile": {
+			"publicDisplayName": "sunny123",
+			"minHourRate": "200",
+			"maxHourRate": "300",
+			"projectRate": "1000",
+			"respondsTime": "hour"
+		},
+		"editSkills": {
+			"skills": [
+				"cooking",
+				"painting",
+				"delivery",
+				"catering"
+			]
+		},
+		"editServices": {
+			"services": [
+				"3D Rendering",
+				"Academic Writing",
+				"Accounting"
+			]
+		},
+		"addListingsAndPackages": {
+			"title": "PlatinumPackage",
+			"serviceCategory": "Account Creation",
+			"minPrice": "500",
+			"maxPrice": "1500",
+			"details": "Platinum package with offers"
+		}
+	},
+	"PostJobRequestData": {
+		"service_category": "Artisan Baker",
+		"budget": "54321",
+		"job_title": "Artisan Baker",
+		"job_desc": "Automated the job creation"
+	},
+	"SubmitOfferData": {
+		"offer_budget": "4000",
+		"first_milestone_title": "First mile stone",
+		"first_milestone_budget": "4000",
+		"first_milestone_desc": "Will complete on time",
+		"offer_desc": "Ready to start immediately"
+	}
 }
