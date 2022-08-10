@@ -1,0 +1,157 @@
+[WDM] - Downloading:   0%|          | 0.00/6.74M [00:00<?, ?B/s][WDM] - Downloading:  20%|██        | 1.37M/6.74M [00:00<00:00, 14.1MB/s][WDM] - Downloading:  61%|██████    | 4.10M/6.74M [00:00<00:00, 22.1MB/s][WDM] - Downloading: 100%|██████████| 6.74M/6.74M [00:00<00:00, 25.1MB/s]
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 1554, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 1060, in serve
+    self._execpool.integrate_as_primary_thread()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 267, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 285, in _perform_spawn
+    reply.run()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 220, in run
+    self._result = func(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 1084, in executetask
+    do_exec(co, loc)  # noqa
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/xdist/remote.py", line 291, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/main.py", line 315, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/main.py", line 268, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/main.py", line 322, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/xdist/remote.py", line 94, in pytest_runtestloop
+    self.run_one_test(torun)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/xdist/remote.py", line 110, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 111, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 130, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 219, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 258, in call_runtest_hook
+    return CallInfo.from_call(
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 338, in from_call
+    result: Optional[TResult] = func()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 259, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 166, in pytest_runtest_call
+    item.runtest()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/unittest.py", line 327, in runtest
+    self._testcase(result=self)  # type: ignore[arg-type]
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/unittest/case.py", line 650, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/tests/test_profile.py", line 296, in test_Profile_Individual_Flyer_EditListingAndPackages
+    self.profilePage.clearListingsAndPackages()
+  File "/home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/pages/profilePage.py", line 189, in clearListingsAndPackages
+    self.elementClick(*self.locator(self.profilePage_locators, 'btn_listingsAndPackagesDeleteIcon'))
+  File "/home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/selenium_driver.py", line 200, in elementClick
+    print_stack()
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 1554, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 1060, in serve
+    self._execpool.integrate_as_primary_thread()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 267, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 285, in _perform_spawn
+    reply.run()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 220, in run
+    self._result = func(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/execnet/gateway_base.py", line 1084, in executetask
+    do_exec(co, loc)  # noqa
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/xdist/remote.py", line 291, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/main.py", line 315, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/main.py", line 268, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/main.py", line 322, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/xdist/remote.py", line 94, in pytest_runtestloop
+    self.run_one_test(torun)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/xdist/remote.py", line 110, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 111, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 130, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 219, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 258, in call_runtest_hook
+    return CallInfo.from_call(
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 338, in from_call
+    result: Optional[TResult] = func()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 259, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/runner.py", line 166, in pytest_runtest_call
+    item.runtest()
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/_pytest/unittest.py", line 327, in runtest
+    self._testcase(result=self)  # type: ignore[arg-type]
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/unittest/case.py", line 650, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/tests/test_profile.py", line 296, in test_Profile_Individual_Flyer_EditListingAndPackages
+    self.profilePage.clearListingsAndPackages()
+  File "/home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/pages/profilePage.py", line 191, in clearListingsAndPackages
+    self.elementClick(*self.locator(self.profilePage_locators, 'btn_deleteConfirm'))
+  File "/home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/selenium_driver.py", line 200, in elementClick
+    print_stack()
