@@ -550,5 +550,11 @@
     "name": "btn_saveChangesEditListingsAndPackages",
     "locateUsing": "xpath",
     "locator": "//app-add-edit-listing//mat-dialog-actions//button[contains(@class,'save-btn')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_saveChangesEditListingsAndPackagess",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//mat-dialog-actions//button[contains(@class,'save-btn')]"
   }
 ]
