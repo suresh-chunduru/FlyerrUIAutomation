@@ -25,17 +25,10 @@ jobs:
       - name: Test with pytest
         run: |
           py.test -n 5 --alluredir=allure_report tests/test_signup.py 
-    
-  allure:
-    needs: Test
-    name: Generate Allure Report
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
+              if: always()
 
       - name: Get Allure history
         uses: actions/checkout@v2
-        if: always()
         continue-on-error: true
         with:
           ref: gh-pages
