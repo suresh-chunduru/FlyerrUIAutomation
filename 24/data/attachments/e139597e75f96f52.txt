@@ -1,0 +1,7 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660132197275.png
+ERROR    HomeNavigation:selenium_driver.py:152 Element not found with locator: //li[text()=' Login '] and locatorType: xpath
+ERROR    HomeNavigation:selenium_driver.py:198 cannot click on the element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+ERROR    TestStatus:teststatus.py:28 ### VERIFICATION FAILED :: Navigation to login page failed
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page failed.1660132231932.png
