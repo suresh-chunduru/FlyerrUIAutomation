@@ -1,5 +1,0 @@
-Running class setUp
-Running method level setUp
-Length of existing services: 3
-Running method level tearDown
-Running class tearDown
