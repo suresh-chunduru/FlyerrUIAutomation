@@ -27,6 +27,7 @@ jobs:
           py.test -n 5 --alluredir=allure_report tests/test_signup.py 
     
   allure:
+    needs: Test
     name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
