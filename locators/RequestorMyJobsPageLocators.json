@@ -1,0 +1,20 @@
+[
+  {
+      "pageName": "RequestorMyJobsPage",
+      "name": "click_on_first_job",
+      "locateUsing": "xpath",
+      "locator": "(//div[@class='list-items-section']//ul//li)[1]"
+  },
+  {
+      "pageName": "RequestorMyJobsPage",
+      "name": "click_on_second_job",
+      "locateUsing": "xpath",
+      "locator": "(//div[@class='list-items-section']//ul//li)[2]"
+  },
+  {
+      "pageName": "RequestorMyJobsPage",
+      "name": "click_on_third_job",
+      "locateUsing": "xpath",
+      "locator": "(//div[@class='list-items-section']//ul//li)[3]"
+  }
+]

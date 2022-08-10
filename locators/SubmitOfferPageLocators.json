@@ -1,0 +1,80 @@
+[
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "click_on_submit_offer_button",
+      "locateUsing": "xpath",
+      "locator": "(//button//span[text()=' Submit Offer '])[1]"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "input_offer_budget",
+      "locateUsing": "xpath",
+      "locator": "//app-submit-offer//div[@class='offer-section']//div//input[@type='number']"
+  },
+  {
+    "pageName": "SubmitOfferPage",
+    "name": "date_calender_icon",
+    "locateUsing": "xpath",
+    "locator": "//mat-form-field//mat-datepicker-toggle//button[@type='button']"
+  },
+  {
+    "pageName": "SubmitOfferPage",
+    "name": "date_select_next_month",
+    "locateUsing": "xpath",
+    "locator": "//mat-calendar//mat-calendar-header//button[@aria-label='Next month']"
+  },
+  {
+    "pageName": "SubmitOfferPage",
+    "name": "date_select_day",
+    "locateUsing": "xpath",
+    "locator": "//mat-month-view//td[@tabindex='-1']//div[text()= 8 ]"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "select_mile_stone_checkbox",
+      "locateUsing": "xpath",
+      "locator": "//mat-checkbox//label//span[text()='Set Milestones ']"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "click_add_milestone_button",
+      "locateUsing": "xpath",
+      "locator": "//button//span[text()=' + Add Milestone ']"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "input_first_milestone",
+      "locateUsing": "xpath",
+      "locator": "//div[@class='mile-stone-step']//input[contains(@placeholder,'eg: First Milestone')]"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "input_first_milestone_budget",
+      "locateUsing": "xpath",
+      "locator": "//div[@class='mile-stone-step']//div//input[@formcontrolname='price']"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "input_first_milestone_desc",
+      "locateUsing": "xpath",
+      "locator": "(//textarea)[1]"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "input_offer_desc",
+      "locateUsing": "xpath",
+      "locator": "(//textarea)[2]"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "click_on_submit_offer_button_in_form",
+      "locateUsing": "xpath",
+      "locator": "(//button//span[text()=' Submit Offer '])[2]"
+  },
+  {
+      "pageName": "SubmitOfferPage",
+      "name": "click_find_more_jobs",
+      "locateUsing": "xpath",
+      "locator": "//div//button[text()='Find more jobs']"
+  }
+]

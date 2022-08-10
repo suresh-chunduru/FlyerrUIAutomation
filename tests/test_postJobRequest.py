@@ -2,7 +2,6 @@ from base.basepage import BasePage
 from utilities.teststatus import TestStatus
 from navigation.homeNavigation import HomeNavigation
 from navigation.loggedInNavigation import LoggedInNavigation
-from navigation.marketPlaceNavigation import MarketPlaceNavigation
 from pages.login_page import LoginPage
 from pages.loggedin_page import LoggedInPage
 from pages.post_job_request_page import PostJobRequestPage
@@ -26,7 +25,6 @@ class PostJobRequest(unittest.TestCase, BasePage):
 
         self.homeNavigation = HomeNavigation(self.driver)
         self.loggedInNavigation = LoggedInNavigation(self.driver)
-        self.marketPlaceNavigation = MarketPlaceNavigation(self.driver)
         self.loginPage = LoginPage(self.driver)
         self.postJobRequestPage = PostJobRequestPage(self.driver)
         self.loggedInPage = LoggedInPage(self.driver)
@@ -75,7 +73,6 @@ class PostJobRequest(unittest.TestCase, BasePage):
 
         self.homeNavigation = HomeNavigation(self.driver)
         self.loggedInNavigation = LoggedInNavigation(self.driver)
-        self.marketPlaceNavigation = MarketPlaceNavigation(self.driver)
         self.loginPage = LoginPage(self.driver)
         self.postJobRequestPage = PostJobRequestPage(self.driver)
         self.loggedInPage = LoggedInPage(self.driver)
@@ -125,7 +122,6 @@ class PostJobRequest(unittest.TestCase, BasePage):
 
         self.homeNavigation = HomeNavigation(self.driver)
         self.loggedInNavigation = LoggedInNavigation(self.driver)
-        self.marketPlaceNavigation = MarketPlaceNavigation(self.driver)
         self.loginPage = LoginPage(self.driver)
         self.postJobRequestPage = PostJobRequestPage(self.driver)
         self.loggedInPage = LoggedInPage(self.driver)
