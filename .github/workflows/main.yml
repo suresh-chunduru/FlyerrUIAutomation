@@ -24,11 +24,11 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test with pytest
         run: |
-          py.test -n 5 --alluredir=allure_report tests/test_signup.py 
-              if: always()
+          py.test -n 4 --alluredir=allure_report tests/test_signup.py 
 
       - name: Get Allure history
         uses: actions/checkout@v2
+        if: always()
         continue-on-error: true
         with:
           ref: gh-pages
