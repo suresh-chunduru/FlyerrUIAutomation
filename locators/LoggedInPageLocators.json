@@ -1,0 +1,20 @@
+[
+   {
+    "pageName": "LoggedInPage",
+    "name": "btn_hiMenu",
+    "locateUsing": "xpath",
+    "locator": "//mat-list-item//button[@role='menuitem' and contains(@class, 'mat-menu-trigger')]"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "btn_menuProfile",
+    "locateUsing": "xpath",
+    "locator": "//button[@role='menuitem']//span[contains(text(), 'Profile')]"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "btn_menuLogout",
+    "locateUsing": "xpath",
+    "locator": "//button[@role='menuitem']//span[contains(text(), 'Log Out')]"
+  }
+]

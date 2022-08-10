@@ -1,0 +1,25 @@
+[  {
+    "pageName": "LoginPageGoogle",
+    "name": "link_loggedInGoogleAccount",
+    "locateUsing": "xpath",
+    "locator": "//div[@data-item-index= '0']"
+  },
+  {
+    "pageName": "LoginPageGoogle",
+    "name": "input_username",
+    "locateUsing": "id",
+    "locator": "identifierId"
+  },
+  {
+    "pageName": "LoginPageGoogle",
+    "name": "btn_next",
+    "locateUsing": "xpath",
+    "locator": "//button//span[contains(text(),'Next')]"
+  },
+  {
+    "pageName": "LoginPageGoogle",
+    "name": "input_password",
+    "locateUsing": "xpath",
+    "locator": "//input[@type= 'password']"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "pageName": "HomePage",
+    "name": "link_login",
+    "locateUsing": "xpath",
+    "locator": "//li[text()=' Login ']"
+  }
+]

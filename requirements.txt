@@ -1,0 +1,13 @@
+pytest
+selenium
+ipython
+openpyxl
+allure-pytest
+allure-python-commons
+nose
+pytest-testrail
+collection
+webdriver-manager
+urllib3
+pytest-xdist
+pytest-rerunfailures

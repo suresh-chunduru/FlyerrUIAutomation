@@ -1,0 +1,92 @@
+[
+  {
+    "pageName": "CountrySettings",
+    "name": "header_countrySettings",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//th[@role = 'columnheader' and contains(text(), ' Country Settings')]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_columnHeaders",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader']"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_columnHeaders_Code",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader'][1]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_columnHeaders_Name",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader'][2]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_columnHeaders_Currency",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader'][3]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_columnHeaders_Tax",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader'][4]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_columnHeaders_Status",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader'][5]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "table_body",
+    "locateUsing": "xpath",
+    "locator": "//app-country-settings-list-view//tbody"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_pageSizeLabel",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[@class= 'mat-paginator-page-size-label']"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_pageSizeValue",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[contains(@class, 'mat-paginator-page-size-value')]"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "txt_pageRangeLabel",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[@class= 'mat-paginator-range-label']"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "btn_pageRangeActionFirstPage",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='First page']"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "btn_pageRangeActionPreviousPage",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Previous page']"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "btn_pageRangeActionNextPage",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Next page']"
+  },
+  {
+    "pageName": "CountrySettings",
+    "name": "btn_pageRangeActionLastPage",
+    "locateUsing": "xpath",
+    "locator": "//mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Last page']"
+  }
+ ]

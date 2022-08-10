@@ -1,0 +1,26 @@
+[
+   {
+    "pageName": "AdminPage",
+    "name": "header_adminRole",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='role' and contains(text(), 'System Admin')]"
+  },
+  {
+    "pageName": "AdminPage",
+    "name": "link_profile",
+    "locateUsing": "xpath",
+    "locator": "//app-configuration-left-navbar//div[@class= 'nav-list ng-star-inserted'][1]//a//div[contains(text(), 'Profile')]"
+  },
+  {
+    "pageName": "AdminPage",
+    "name": "link_account",
+    "locateUsing": "xpath",
+    "locator": "//app-configuration-left-navbar//div[@class= 'nav-list ng-star-inserted'][2]//a//div[contains(text(), 'Account')]"
+  },
+  {
+    "pageName": "AdminPage",
+    "name": "link_countrySettings",
+    "locateUsing": "xpath",
+    "locator": "//app-configuration-left-navbar//div[@class= 'nav-list ng-star-inserted'][3]//a//div[contains(text(), 'Country Settings')]"
+  }
+]

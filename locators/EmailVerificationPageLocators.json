@@ -1,0 +1,32 @@
+[
+  {
+    "pageName": "EmailVerificationPage",
+    "name": "header_emailVerification",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='vf-form-title-1']"
+  },
+    {
+    "pageName": "EmailVerificationPage",
+    "name": "txt_instruction1",
+    "locateUsing": "xpath",
+    "locator": "//p[@class='vf-instruction'][0]"
+  },
+  {
+    "pageName": "EmailVerificationPage",
+    "name": "txt_instruction2",
+    "locateUsing": "xpath",
+    "locator": "//p[@class='vf-instruction'][1]"
+  },
+  {
+    "pageName": "EmailVerificationPage",
+    "name": "txt_instruction3",
+    "locateUsing": "xpath",
+    "locator": "//p[@class='vf-instruction'][2]"
+  },
+  {
+    "pageName": "EmailVerificationPage",
+    "name": "btn_resend",
+    "locateUsing": "xpath",
+    "locator": "//button[@class='vf-form-btn']"
+  }
+ ]

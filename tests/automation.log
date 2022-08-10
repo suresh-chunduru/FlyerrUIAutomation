@@ -1,0 +1,29 @@
+07/25/2022 12:31:10 PM - HomeNavigation - INFO: Element found with locator: //li[text()=' Login '] and locatorType: xpath
+07/25/2022 12:31:20 PM - HomeNavigation - INFO: clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+07/25/2022 12:31:20 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+07/25/2022 12:34:03 PM - HomeNavigation - INFO: Element found with locator: //li[text()=' Login '] and locatorType: xpath
+07/25/2022 12:34:04 PM - HomeNavigation - ERROR: cannot click on the element with locator: //li[text()=' Login '] locatorType: xpath
+07/25/2022 12:34:04 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+07/25/2022 12:36:13 PM - HomeNavigation - INFO: Element found with locator: //li[text()=' Login '] and locatorType: xpath
+07/25/2022 12:36:20 PM - HomeNavigation - INFO: clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+07/25/2022 12:36:20 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+07/25/2022 12:39:23 PM - HomeNavigation - INFO: Element found with locator: //li[text()=' Login '] and locatorType: xpath
+07/25/2022 12:39:30 PM - HomeNavigation - INFO: clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+07/25/2022 12:39:30 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+07/25/2022 12:39:30 PM - LoginPage - INFO: Element found with locator: username and locatorType: id
+07/25/2022 12:39:30 PM - LoginPage - INFO: send data on element with locator: username locatorType: id
+07/25/2022 12:39:30 PM - LoginPage - INFO: Element found with locator: txtPassword and locatorType: id
+07/25/2022 12:39:30 PM - LoginPage - INFO: send data on element with locator: txtPassword locatorType: id
+07/25/2022 12:39:30 PM - LoginPage - INFO: Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+07/25/2022 12:39:33 PM - LoginPage - INFO: clicked on element with locator: //div/button[text()='Continue'] locatorType: xpath
+07/25/2022 12:40:55 PM - HomeNavigation - INFO: Element found with locator: //li[text()=' Login '] and locatorType: xpath
+07/25/2022 12:41:03 PM - HomeNavigation - INFO: clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+07/25/2022 12:41:03 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+07/25/2022 12:41:03 PM - LoginPage - INFO: Element found with locator: username and locatorType: id
+07/25/2022 12:41:03 PM - LoginPage - INFO: send data on element with locator: username locatorType: id
+07/25/2022 12:41:03 PM - LoginPage - INFO: Element found with locator: txtPassword and locatorType: id
+07/25/2022 12:41:03 PM - LoginPage - INFO: send data on element with locator: txtPassword locatorType: id
+07/25/2022 12:41:04 PM - LoginPage - INFO: Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+07/25/2022 12:41:07 PM - LoginPage - INFO: clicked on element with locator: //div/button[text()='Continue'] locatorType: xpath
+07/25/2022 12:41:10 PM - LoggedInPage - INFO: Element list found with locator: //div[@class='top-nav-bar']//ul//mat-list-item//div//button[@tabindex=0] and locatorType: xpath
+07/25/2022 12:41:10 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: login failed

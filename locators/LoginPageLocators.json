@@ -1,0 +1,68 @@
+[
+  {
+    "pageName": "LoginPage",
+    "name": "header_login",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='span-text' and contains(text(), 'Login')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "input_username",
+    "locateUsing": "id",
+    "locator": "username"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "input_password",
+    "locateUsing": "id",
+    "locator": "txtPassword"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "checkbox_rememberme",
+    "locateUsing": "id",
+    "locator": "rememberMe"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "link_forgotPassword",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(), 'Forgot password?')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "btn_login",
+    "locateUsing": "xpath",
+    "locator": "//div/button[text()='Continue']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "txt_orLoginWith",
+    "locateUsing": "xpath",
+    "locator": "//div[@id='social-providers']//p//span"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "btn_google",
+    "locateUsing": "xpath",
+    "locator": "//input[@value='Google']"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "txt_doNotHaveAnAccount",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'have an account?')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "link_signUp",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Sign up')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "txt_alertError",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='alert alert-error']//span[@class = 'message-text']"
+  }
+]

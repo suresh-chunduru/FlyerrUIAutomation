@@ -1,0 +1,80 @@
+[
+  {
+    "pageName": "SignUpPage",
+    "name": "header_signUp",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='span-text' and contains(text(), 'Create Account')]"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "input_firstname",
+    "locateUsing": "id",
+    "locator": "firstName"
+  },
+   {
+    "pageName": "SignUpPage",
+    "name": "input_lastname",
+    "locateUsing": "id",
+    "locator": "lastName"
+  },
+   {
+    "pageName": "SignUpPage",
+    "name": "input_email",
+    "locateUsing": "id",
+    "locator": "email"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "input_username",
+    "locateUsing": "id",
+    "locator": "username"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "checkbox_iAccept",
+    "locateUsing": "id",
+    "locator": "rememberMe"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "link_termsAndConditions",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'terms & conditions')]"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "btn_signUp",
+    "locateUsing": "xpath",
+    "locator": "//input[@value='Sign Up']"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "txt_orRegisterWith",
+    "locateUsing": "xpath",
+    "locator": "//div[@id='social-providers']//p//span"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "btn_google",
+    "locateUsing": "xpath",
+    "locator": "//input[@value='Google']"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "txt_AlreadyHaveAnAccount",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Already have an account?')]"
+  },
+  {
+	"pageName": "SignUpPage",
+    "name": "link_signIn",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Sign in')]"
+  },
+  {
+    "pageName": "SignUpPage",
+    "name": "txt_alertError",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='alert alert-error']//span[@class = 'message-text']"
+  }
+]

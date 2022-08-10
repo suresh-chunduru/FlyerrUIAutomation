@@ -1,0 +1,554 @@
+[
+  {
+    "pageName": "ProfilePage",
+    "name": "tab_overview",
+    "locateUsing": "xpath",
+    "locator": "//app-nav-bar//ul//a[contains(text(), 'Overview')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "tab_profile",
+    "locateUsing": "xpath",
+    "locator": "//app-nav-bar//ul//a[contains(text(), 'Profile')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "tab_inbox",
+    "locateUsing": "xpath",
+    "locator": "//app-nav-bar//ul//a[contains(text(), 'Inbox')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "tab_payment",
+    "locateUsing": "xpath",
+    "locator": "//app-nav-bar//ul//a[contains(text(), 'Payment')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "tab_account",
+    "locateUsing": "xpath",
+    "locator": "//app-nav-bar//ul//a[contains(text(), 'Account')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_profile",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-account//div[contains(@class, 'accounts-top-nav')]//div[contains(@class, 'title') and contains(text(), 'Profile')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "titleTxt_hourlyRates",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-account//div[contains(@class, 'rates')]//div[contains(@class, 'hr-rates')]//div[contains(@class, 'hr-title')]//span"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "values_hourlyRates",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-account//div[contains(@class, 'rates')]//div[contains(@class, 'hr-rates')]//div[contains(@class, 'rates-prize')]//span"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "titleTxt_projectRates",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-account//div[contains(@class, 'rates')]//div[contains(@class, 'pro-rates')]//div[contains(@class, 'pro-title')]//span"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "values_projectRates",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-account//div[contains(@class, 'rates')]//div[contains(@class, 'pro-rates')]//div[contains(@class, 'rates-prize')]//span"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_addOrEditProfile",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-account//div[contains(@class, 'accounts-top-nav')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_editProfile",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class,'mat-dialog-title')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_closeEditProfile",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class,'mat-dialog-title')]//mat-icon[@type='button' and text()='close']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "txt_publicDisplayName",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'public-name')]//div[@class='name']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_publicDisplayName",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'public-name')]//mat-form-field//input[@formcontrolname='publicName']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "txt_hourlyRates",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'hourly-project-rates')]//div[@class='hRate']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_minHourlyRate",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'hourly-project-rates')]//div[@class='min-input']//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_maxHourlyRate",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'hourly-project-rates')]//div[@class='max-input']//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "txt_projectRate",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'projectrate-section')]//div[@class='pRate']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_projectRate",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'projectrate-section')]//div[@class='rate-input']//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "txt_respondsTime",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'respondsInDay')]//div[@class='responds']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "dropdown_respondsTime",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//div[contains(@class, 'respondsInDay')]//mat-select"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_respondsTimeDay",
+    "locateUsing": "xpath",
+    "locator": "//mat-option[@role='option'][1]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_respondsTimeHour",
+    "locateUsing": "xpath",
+    "locator": "//mat-option[@role='option'][2]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_discardChangesEditProfile",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//mat-dialog-actions//button[contains(@class,'discard')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_saveChangesEditProfile",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-profile//mat-dialog-actions//button[contains(@class,'save-btn')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "popup_errorPopUp",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class, 'swal2-icon-error') and @role='dialog']"
+  },
+  {
+   "pageName": "ProfilePage",
+    "name": "btn_okErrorPopUp",
+    "locateUsing": "xpath",
+    "locator": "///div[contains(@class, 'swal2-icon-error') and @role='dialog']//div[contains(@class, 'swal2-actions')]//button[contains(text(), 'OK')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "popup_successPopUp",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class, 'swal2-icon-success') and @role='dialog']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_okSuccessPopUp",
+    "locateUsing": "xpath",
+    "locator": "///div[contains(@class, 'swal2-icon-success') and @role='dialog']//div[contains(@class, 'swal2-actions')]//button[contains(text(), 'OK')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_serviceLocation",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-service-location//div[contains(@class,'heading-section')]//div[contains(@class, 'title') and contains(text(), 'Service Location')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_addOrEditServiceLocation",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-service-location//div[contains(@class,'heading-section')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_editServiceLocation",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//div[contains(@class,'mat-dialog-title')]//span[contains(text(),'Edit')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_closeEditServiceLocation",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//div[contains(@class,'mat-dialog-title')]//mat-icon[@type='button' and text()='close']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "checkbox_inPerson",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'icon-in-person')]//mat-checkbox"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_locationSelection",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'icon-in-person')]//button[contains(@class,'location')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "dropdown_radius",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'icon-radius')]//mat-select"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "checkbox_remote",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'icon-remote')]//mat-checkbox"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_radius25KM",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class,'mat-select-panel')]//mat-option[@role='option'][1]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_radius30KM",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class,'mat-select-panel')]//mat-option[@role='option'][2]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_radius40KM",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class,'mat-select-panel')]//mat-option[@role='option'][3]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_radius50KM",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class,'mat-select-panel')]//mat-option[@role='option'][4]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "option_radius100KM",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class,'mat-select-panel')]//mat-option[@role='option'][5]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_discardChangesEditServiceLocation",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//mat-dialog-actions//button[contains(@class,'discard')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_saveChangesEditServiceLocation",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-service-availability//mat-dialog-actions//button[contains(@class,'save-btn')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_skills",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-skills//div[contains(@class,'heading-section')]//div[contains(@class, 'title') and contains(text(), 'Skills')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_addOrEditSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-skills//div[contains(@class,'heading-section')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_editSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//div[contains(@class,'mat-dialog-title')]//span[contains(text(),'Edit Skills')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_closeEditSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//div[contains(@class,'mat-dialog-title')]//mat-icon[@type='button' and text()='close']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "titleTxt_addSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'add-skills')]//span"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_skills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'input-skills')]//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_addSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'input-skills')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "chipListWrapper_addedSkills",
+    "locateUsing": "xpath",
+    "locator": "//mat-form-field//div[contains(@class,'mat-chip-list-wrapper')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "chip_addedSkills",
+    "locateUsing": "xpath",
+    "locator": " //mat-form-field//div[contains(@class,'mat-chip-list-wrapper')]//mat-chip"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_skillDeleteIcon",
+    "locateUsing": "xpath",
+    "locator": " //mat-form-field//div[contains(@class,'mat-chip-list-wrapper')]//mat-chip//mat-icon"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_discardChangesEditSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//mat-dialog-actions//button[contains(@class,'discard')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_saveChangesEditSkills",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-skills//mat-dialog-actions//button[contains(@class,'save-btn')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_services",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-services//div[contains(@class,'heading-section')]//div[contains(@class, 'title') and contains(text(), 'Services')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_addOrEditServices",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-services//div[contains(@class,'heading-section')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_editServices",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-services//div[contains(@class,'mat-dialog-title')]//span[contains(text(),'Services')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_closeEditServices",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-services//div[contains(@class,'mat-dialog-title')]//mat-icon[@type='button' and text()='close']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "titleTxt_addServices",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-services//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'add-skills')]//span[text()='Add Services']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "dropdown_serviceList",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-services//div[contains(@class,'mat-dialog-content')]//mat-select[@role='combobox']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "options_serviceList",
+    "locateUsing": "xpath",
+    "locator": "//mat-option[@role='option']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "chipListWrapper_addedServices",
+    "locateUsing": "xpath",
+    "locator": "//mat-form-field//div[contains(@class,'mat-chip-list-wrapper')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "chip_addedServices",
+    "locateUsing": "xpath",
+    "locator": "//mat-form-field//div[contains(@class,'mat-chip-list-wrapper')]//mat-chip"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_serviceDeleteIcon",
+    "locateUsing": "xpath",
+    "locator": "//mat-form-field//div[contains(@class,'mat-chip-list-wrapper')]//mat-chip//mat-icon"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_discardChangesEditServices",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-services//mat-dialog-actions//button[contains(@class,'discard')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_saveChangesEditServices",
+    "locateUsing": "xpath",
+    "locator": "//app-edit-services//mat-dialog-actions//button[contains(@class,'save-btn')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_listingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-listings-packages//div[contains(@class,'heading-section')]//div[contains(@class, 'title') and contains(text(), 'Listings & Packages')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_addOrEditListingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-listings-packages//div[contains(@class,'heading-section')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "items_addedListingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-listings-packages//div[contains(@class,'custom-slider-main')]//div[contains(@class,'info-box')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_listingsAndPackagesDeleteIcon",
+    "locateUsing": "xpath",
+    "locator": "//app-profile-listings-packages//div[contains(@class,'custom-slider-main')]//div[contains(@class,'info-box')]//mat-icon[contains(@class, 'delete-icon')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_deleteConfirm",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class, 'swal2-actions')]//button[contains(@class,'swal2-confirm')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_deleteCancel",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(@class, 'swal2-actions')]//button[contains(@class,'swal2-cancel')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "headerTxt_editListingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-title')]//span[contains(text(),'Add Listings And Packages')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_closeEditListingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-title')]//mat-icon[@type='button' and text()='close']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "label_listingsAndPackagesTitle",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Title')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_listingsAndPackagesTitle",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Title')]/parent::div//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "label_listingsAndPackagesServiceCategory",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Service Category')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "dropdown_listingsAndPackagesServiceCategory",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Service')]/parent::div//mat-select"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "options_listingsAndPackagesServiceList",
+    "locateUsing": "xpath",
+    "locator": "//mat-option[@role='option']"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "label_listingsAndPackagesMinPrice",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Min.Price')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_listingsAndPackagesMinPrice",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Min.Price')]/parent::div//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "label_listingsAndPackagesMaxPrice",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Max.Price')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_listingsAndPackagesMaxPrice",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Max.Price')]/parent::div//input"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "label_listingsAndPackagesDetails",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Details')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "input_listingsAndPackagesDetails",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'ListingForm')]//div[contains(@class, 'public-name')]//mat-label[contains(text(), 'Details')]/parent::div//textarea"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "label_listingsAndPackagesAttachments",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'upload')]//div[contains(@class, 'upload-text') and contains(text(), 'Attachments')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_listingsAndPackagesAddFiles",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//div[contains(@class,'mat-dialog-content')]//div[contains(@class, 'upload')]//div[contains(@class, 'upload-btn')]//button"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_discardChangesEditListingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//mat-dialog-actions//button[contains(@class,'discard')]"
+  },
+  {
+    "pageName": "ProfilePage",
+    "name": "btn_saveChangesEditListingsAndPackages",
+    "locateUsing": "xpath",
+    "locator": "//app-add-edit-listing//mat-dialog-actions//button[contains(@class,'save-btn')]"
+  }
+]
