@@ -24,4 +24,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test with pytest
         run: |
-          py.test -n 17 --alluredir=allure_report tests/test_suite_demo.py 
+          py.test -n 5 --alluredir=allure_report tests/test_signup.py 
