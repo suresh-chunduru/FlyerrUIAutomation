@@ -42,7 +42,11 @@ class WebDriverFactory:
         elif self.browser == "chrome":
 
             # Set Chrome driver
-            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            options = webdriver.ChromeOptions()
+            # options.add_experimental_option("excludeSwitches", ["ignore-certificate-errors"])
+            options.add_argument("--window-size=1920,1080")
+            options.add_argument('headless')
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
             driver.maximize_window()
 
         elif self.browser == "edge":
