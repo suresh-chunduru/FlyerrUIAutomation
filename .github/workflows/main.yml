@@ -25,6 +25,7 @@ jobs:
       - name: Test with pytest
         run: |
           py.test -n 4 --alluredir=allure_report tests/test_signup.py 
+#          allure serve allure_report
 
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -40,10 +41,10 @@ jobs:
         if: always()
         #id: allure-report
         with:
-          allure_results: allure_report
-          gh_pages: gh-pages
-          allure_report: allure_report
-#          allure_history: allure_report/history
+          allure_results: allure-report
+#          gh_pages: gh-pages
+#          allure_report: allure-report
+#          allure_history: allure-history/allure-history
           keep_reports: 5
 
       - name: Deploy report to Github Pages
