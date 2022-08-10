@@ -28,5 +28,11 @@
       "name": "click_on_ok_button",
       "locateUsing": "xpath",
       "locator": "//button[contains(text(),'OK')]"
+  },
+  {
+      "pageName": "Pages",
+      "name": "click_on_ok_button",
+      "locateUsing": "xpath",
+      "locator": "//button[contains(text(),'OK')]"
   }
 ]
