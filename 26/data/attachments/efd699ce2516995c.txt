@@ -1,0 +1,27 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660135077017.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660135085911.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: username locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: txtPassword and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: txtPassword locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:195 clicked on element with locator: //div/button[text()='Continue'] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login with InvalidCredentials verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login with InvalidCredentials verified.1660135100149.png
+DEBUG    LoginPage:selenium_driver.py:288 In locator condition
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div[@class='alert alert-error']//span[@class = 'message-text'] and locatorType: xpath
+DEBUG    LoginPage:selenium_driver.py:290 Before finding text
+DEBUG    LoginPage:selenium_driver.py:292 After finding element, size is: 28
+INFO     LoginPage:selenium_driver.py:296 Getting text on element :: 
+INFO     LoginPage:selenium_driver.py:297 The text is :: 'Invalid username or password'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Invalid username or password
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Invalid username or password
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login alert error message verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login alert error message verified.1660135101699.png

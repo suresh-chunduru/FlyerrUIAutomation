@@ -1,0 +1,52 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660135076857.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660135085897.png
+INFO     Util:util.py:93 Actual Text From Application Web UI --> :: Sign in to Flyerr Marketplace
+INFO     Util:util.py:94 Expected Text From Application Web UI --> :: Sign in to Flyerr Marketplace
+INFO     Util:util.py:97 ### VERIFICATIONS CONTAINS !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page title verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page title verified.1660135093139.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page header display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page header display verified.1660135095630.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: username and locatorType: id
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page username display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page username display verified.1660135097952.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: txtPassword and locatorType: id
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: txtPassword and locatorType: id
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page password display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page password display verified.1660135100383.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: rememberMe and locatorType: id
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: rememberMe and locatorType: id
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page checkbox_rememberme display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page checkbox_rememberme display verified.1660135101517.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //a[contains(text(), 'Forgot password?')] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //a[contains(text(), 'Forgot password?')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page link_forgotPassword display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page link_forgotPassword display verified.1660135102413.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //div/button[text()='Continue'] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page btn_login display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page btn_login display verified.1660135103396.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div[@id='social-providers']//p//span and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //div[@id='social-providers']//p//span and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page txt_orLoginWith display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page txt_orLoginWith display verified.1660135105425.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //input[@value='Google'] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //input[@value='Google'] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page btn_google display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page btn_google display verified.1660135109105.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //span[contains(text(),'have an account?')] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //span[contains(text(),'have an account?')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page txt_doNotHaveAnAccount display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page txt_doNotHaveAnAccount display verified.1660135110614.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //a[contains(text(),'Sign up')] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:337 Element is displayed with locator: //a[contains(text(),'Sign up')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login page link_signUp display verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login page link_signUp display verified.1660135111649.png

@@ -1,0 +1,54 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660135138200.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660135147257.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: username locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: txtPassword and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: txtPassword locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:195 clicked on element with locator: //div/button[text()='Continue'] locatorType: xpath
+INFO     LoggedInPage:selenium_driver.py:178 Element list found with locator: //mat-list-item//button[@role='menuitem' and contains(@class, 'mat-menu-trigger')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login is successful
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login is successful.1660135158586.png
+INFO     LoggedInNavigation:selenium_driver.py:149 Element found with locator: //div[@class='top-nav-bar']//ul//div//li[text()=' Find Jobs '] and locatorType: xpath
+INFO     LoggedInNavigation:selenium_driver.py:195 clicked on element with locator: //div[@class='top-nav-bar']//ul//div//li[text()=' Find Jobs '] locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to find jobs page successful
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to find jobs page successful.1660135163417.png
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: (//div[@class='list-items-section']//ul//li)[1] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: (//div[@class='list-items-section']//ul//li)[1] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: (//button//span[text()=' Submit Offer '])[1] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: (//button//span[text()=' Submit Offer '])[1] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //app-submit-offer//div[@class='offer-section']//div//input[@type='number'] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:241 send data on element with locator: //app-submit-offer//div[@class='offer-section']//div//input[@type='number'] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //mat-form-field//mat-datepicker-toggle//button[@type='button'] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: //mat-form-field//mat-datepicker-toggle//button[@type='button'] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //mat-calendar//mat-calendar-header//button[@aria-label='Next month'] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: //mat-calendar//mat-calendar-header//button[@aria-label='Next month'] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //mat-month-view//td[@tabindex='-1']//div[text()= 8 ] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: //mat-month-view//td[@tabindex='-1']//div[text()= 8 ] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //mat-checkbox//label//span[text()='Set Milestones '] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: //mat-checkbox//label//span[text()='Set Milestones '] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //button//span[text()=' + Add Milestone '] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: //button//span[text()=' + Add Milestone '] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //div[@class='mile-stone-step']//input[contains(@placeholder,'eg: First Milestone')] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:241 send data on element with locator: //div[@class='mile-stone-step']//input[contains(@placeholder,'eg: First Milestone')] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //div[@class='mile-stone-step']//div//input[@formcontrolname='price'] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:241 send data on element with locator: //div[@class='mile-stone-step']//div//input[@formcontrolname='price'] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: (//textarea)[1] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:241 send data on element with locator: (//textarea)[1] locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: (//textarea)[2] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:241 send data on element with locator: (//textarea)[2] locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Offer details filled
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Offer details filled.1660135189256.png
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: (//button//span[text()=' Submit Offer '])[2] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: (//button//span[text()=' Submit Offer '])[2] locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigate to find more jobs page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigate to find more jobs page.1660135191836.png
+INFO     SubmitOfferPage:selenium_driver.py:149 Element found with locator: //div//button[text()='Find more jobs'] and locatorType: xpath
+INFO     SubmitOfferPage:selenium_driver.py:195 clicked on element with locator: //div//button[text()='Find more jobs'] locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Submit the offer is successful
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Submit the offer is successful.1660135194372.png
