@@ -1,0 +1,30 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660214750212.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660214757069.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: username locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: txtPassword and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: txtPassword locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:195 clicked on element with locator: //div/button[text()='Continue'] locatorType: xpath
+INFO     LoggedInPage:selenium_driver.py:178 Element list found with locator: //mat-list-item//button[@role='menuitem' and contains(@class, 'mat-menu-trigger')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login with IndividualAccount successful
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login with IndividualAccount successful.1660214769171.png
+INFO     LoggedInNavigation:selenium_driver.py:149 Element found with locator: //mat-list-item//button[@role='menuitem' and contains(@class, 'mat-menu-trigger')] and locatorType: xpath
+INFO     LoggedInNavigation:selenium_driver.py:195 clicked on element with locator: //mat-list-item//button[@role='menuitem' and contains(@class, 'mat-menu-trigger')] locatorType: xpath
+INFO     LoggedInNavigation:selenium_driver.py:149 Element found with locator: //button[@role='menuitem']//span[contains(text(), 'Profile')] and locatorType: xpath
+INFO     LoggedInNavigation:selenium_driver.py:195 clicked on element with locator: //button[@role='menuitem']//span[contains(text(), 'Profile')] locatorType: xpath
+INFO     ProfilePage:selenium_driver.py:178 Element list found with locator: //app-profile-account//div[contains(@class, 'accounts-top-nav')]//div[contains(@class, 'title') and contains(text(), 'Profile')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to profile page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to profile page.1660214780579.png
+INFO     ProfileNavigation:selenium_driver.py:149 Element found with locator: //app-profile-service-location//div[contains(@class,'heading-section')]//button and locatorType: xpath
+INFO     ProfileNavigation:selenium_driver.py:195 clicked on element with locator: //app-profile-service-location//div[contains(@class,'heading-section')]//button locatorType: xpath
+INFO     ProfilePage:selenium_driver.py:149 Element found with locator: //app-edit-service-availability//div[contains(@class,'mat-dialog-title')]//span[contains(text(),'Edit')] and locatorType: xpath
+INFO     ProfilePage:selenium_driver.py:337 Element is displayed with locator: //app-edit-service-availability//div[contains(@class,'mat-dialog-title')]//span[contains(text(),'Edit')] and locatorType: xpath
+INFO     ProfilePage:profilePage.py:37 Edit Profile modal window not displayed
+ERROR    TestStatus:teststatus.py:28 ### VERIFICATION FAILED :: Edit Service Location modal not displayed
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Edit Service Location modal not displayed.1660214784580.png

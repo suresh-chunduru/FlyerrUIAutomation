@@ -1,0 +1,25 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660214747824.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660214754193.png
+INFO     LoginNavigation:selenium_driver.py:149 Element found with locator: //a[contains(text(),'Sign up')] and locatorType: xpath
+INFO     LoginNavigation:selenium_driver.py:195 clicked on element with locator: //a[contains(text(),'Sign up')] locatorType: xpath
+INFO     SignUpPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Create Account')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to signup page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to signup page.1660214759391.png
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: firstName and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: firstName locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: lastName and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: lastName locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: email and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: email locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: username locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: //input[@value='Sign Up'] and locatorType: xpath
+INFO     SignUpPage:selenium_driver.py:195 clicked on element with locator: //input[@value='Sign Up'] locatorType: xpath
+INFO     EmailVerificationPage:selenium_driver.py:178 Element list found with locator: //span[@class='vf-form-title-1'] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Signup successful
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Signup successful.1660214768712.png
