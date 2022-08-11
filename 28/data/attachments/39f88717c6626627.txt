@@ -1,0 +1,156 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660214813016.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660214822730.png
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: username locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: txtPassword and locatorType: id
+INFO     LoginPage:selenium_driver.py:241 send data on element with locator: txtPassword locatorType: id
+INFO     LoginPage:selenium_driver.py:149 Element found with locator: //div/button[text()='Continue'] and locatorType: xpath
+INFO     LoginPage:selenium_driver.py:195 clicked on element with locator: //div/button[text()='Continue'] locatorType: xpath
+INFO     LoggedInPage:selenium_driver.py:178 Element list found with locator: //mat-list-item//button[@role='menuitem' and contains(@class, 'mat-menu-trigger')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Login with admin successful
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Login with admin successful.1660214844819.png
+INFO     AdminConfigurationPage:selenium_driver.py:178 Element list found with locator: //div[@class='role' and contains(text(), 'System Admin')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Landing/Navigating to admin config page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Landing/Navigating to admin config page.1660214845855.png
+INFO     AdminNavigation:selenium_driver.py:149 Element found with locator: //app-configuration-left-navbar//div[@class= 'nav-list ng-star-inserted'][3]//a//div[contains(text(), 'Country Settings')] and locatorType: xpath
+INFO     AdminNavigation:selenium_driver.py:195 clicked on element with locator: //app-configuration-left-navbar//div[@class= 'nav-list ng-star-inserted'][3]//a//div[contains(text(), 'Country Settings')] locatorType: xpath
+INFO     CountrySettingsPage:selenium_driver.py:178 Element list found with locator: //app-country-settings-list-view//th[@role = 'columnheader' and contains(text(), ' Country Settings')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to CountrySettings
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to CountrySettings.1660214847667.png
+DEBUG    CountrySettingsPage:selenium_driver.py:288 In locator condition
+INFO     CountrySettingsPage:selenium_driver.py:149 Element found with locator: //app-country-settings-list-view//th[@role = 'columnheader' and contains(text(), ' Country Settings')] and locatorType: xpath
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 16
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Country Settings'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Country Settings
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Country Settings
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Country Settings header text verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Country Settings header text verified.1660214849099.png
+INFO     CountrySettingsPage:selenium_driver.py:178 Element list found with locator: //app-country-settings-list-view//thead//tr[2]//th[@role= 'columnheader'] and locatorType: xpath
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 4
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Code'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Code
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Code
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 4
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Code'
+INFO     CountrySettingsPage:countrySettingsPage.py:28 CountrySettings ColumnHeader matched- Actual: Code, Expected: Code
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 4
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Name'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Name
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Name
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 4
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Name'
+INFO     CountrySettingsPage:countrySettingsPage.py:28 CountrySettings ColumnHeader matched- Actual: Name, Expected: Name
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 8
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Currency'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Currency
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Currency
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 8
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Currency'
+INFO     CountrySettingsPage:countrySettingsPage.py:28 CountrySettings ColumnHeader matched- Actual: Currency, Expected: Currency
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 4
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Tax%'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Tax%
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Tax%
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 4
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Tax%'
+INFO     CountrySettingsPage:countrySettingsPage.py:28 CountrySettings ColumnHeader matched- Actual: Tax%, Expected: Tax%
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 19
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Milestone Threshold'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Milestone Threshold
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Milestone Threshold
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 19
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Milestone Threshold'
+INFO     CountrySettingsPage:countrySettingsPage.py:28 CountrySettings ColumnHeader matched- Actual: Milestone Threshold, Expected: Milestone Threshold
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 6
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Status'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Status
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Status
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 6
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Status'
+INFO     CountrySettingsPage:countrySettingsPage.py:28 CountrySettings ColumnHeader matched- Actual: Status, Expected: Status
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Country Settings column headers text verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Country Settings column headers text verified.1660214851837.png
+INFO     CountrySettingsPage:selenium_driver.py:149 Element found with locator: //app-country-settings-list-view//tbody and locatorType: xpath
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 7
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Andorra'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Andorra
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Andorra
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Country Settings first page first row CountryName verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Country Settings first page first row CountryName verified.1660214853744.png
+INFO     CountrySettingsNavigation:selenium_driver.py:149 Element found with locator: //mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Next page'] and locatorType: xpath
+INFO     CountrySettingsNavigation:selenium_driver.py:195 clicked on element with locator: //mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Next page'] locatorType: xpath
+INFO     CountrySettingsPage:selenium_driver.py:149 Element found with locator: //app-country-settings-list-view//tbody and locatorType: xpath
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 7
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Belgium'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Belgium
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Belgium
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Country Settings 2nd page last row CountryName verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Country Settings 2nd page last row CountryName verified.1660214857585.png
+INFO     CountrySettingsNavigation:selenium_driver.py:149 Element found with locator: //mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Last page'] and locatorType: xpath
+INFO     CountrySettingsNavigation:selenium_driver.py:195 clicked on element with locator: //mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Last page'] locatorType: xpath
+INFO     CountrySettingsPage:selenium_driver.py:149 Element found with locator: //app-country-settings-list-view//tbody and locatorType: xpath
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 8
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Zimbabwe'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Zimbabwe
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Zimbabwe
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Country Settings last page last row CountryName verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Country Settings last page last row CountryName verified.1660214861759.png
+INFO     CountrySettingsNavigation:selenium_driver.py:149 Element found with locator: //mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Previous page'] and locatorType: xpath
+INFO     CountrySettingsNavigation:selenium_driver.py:195 clicked on element with locator: //mat-paginator//div[@class= 'mat-paginator-range-actions']//button[@aria-label='Previous page'] locatorType: xpath
+INFO     CountrySettingsPage:selenium_driver.py:149 Element found with locator: //app-country-settings-list-view//tbody and locatorType: xpath
+DEBUG    CountrySettingsPage:selenium_driver.py:290 Before finding text
+DEBUG    CountrySettingsPage:selenium_driver.py:292 After finding element, size is: 7
+INFO     CountrySettingsPage:selenium_driver.py:296 Getting text on element :: 
+INFO     CountrySettingsPage:selenium_driver.py:297 The text is :: 'Ukraine'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Ukraine
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Ukraine
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Country Settings lastPrev page first row CountryName verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Country Settings lastPrev page first row CountryName verified.1660214866292.png
