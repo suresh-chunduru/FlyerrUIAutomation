@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 11 10:55:40 GMT 2022","Thu Aug 11 10:55:51 GMT 2022","11240","tests","test_signup","SignUpTest","","","test_VerifyErrorSigup_with_existing_username",""
+"passed","Thu Aug 11 10:55:40 GMT 2022","Thu Aug 11 10:55:55 GMT 2022","14991","tests","test_signup","SignUpTest","","","test_Signup_CreateAccount_Individual",""
+"passed","Thu Aug 11 10:55:40 GMT 2022","Thu Aug 11 10:55:55 GMT 2022","15007","tests","test_signup","SignUpTest","","","test_Signup_Verify_Signup_page",""
+"passed","Thu Aug 11 10:55:40 GMT 2022","Thu Aug 11 10:55:49 GMT 2022","8982","tests","test_signup","SignUpTest","","","test_VerifyErrorSigup_with_existing_email",""

@@ -1,0 +1,36 @@
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Homepage loaded completely
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Homepage loaded completely.1660215340152.png
+INFO     HomeNavigation:selenium_driver.py:149 Element found with locator: //li[text()=' Login '] and locatorType: xpath
+INFO     HomeNavigation:selenium_driver.py:195 clicked on element with locator: //li[text()=' Login '] locatorType: xpath
+INFO     LoginPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Login')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to login page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to login page.1660215344056.png
+INFO     LoginNavigation:selenium_driver.py:149 Element found with locator: //a[contains(text(),'Sign up')] and locatorType: xpath
+INFO     LoginNavigation:selenium_driver.py:195 clicked on element with locator: //a[contains(text(),'Sign up')] locatorType: xpath
+INFO     SignUpPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Create Account')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Navigation to signup page
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Navigation to signup page.1660215346915.png
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: firstName and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: firstName locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: lastName and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: lastName locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: email and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: email locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: username and locatorType: id
+INFO     SignUpPage:selenium_driver.py:241 send data on element with locator: username locatorType: id
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: //input[@value='Sign Up'] and locatorType: xpath
+INFO     SignUpPage:selenium_driver.py:195 clicked on element with locator: //input[@value='Sign Up'] locatorType: xpath
+INFO     SignUpPage:selenium_driver.py:178 Element list found with locator: //span[@class='span-text' and contains(text(), 'Create Account')] and locatorType: xpath
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: SignUp with existing email verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/SignUp with existing email verified.1660215348175.png
+DEBUG    SignUpPage:selenium_driver.py:288 In locator condition
+INFO     SignUpPage:selenium_driver.py:149 Element found with locator: //div[@class='alert alert-error']//span[@class = 'message-text'] and locatorType: xpath
+DEBUG    SignUpPage:selenium_driver.py:290 Before finding text
+DEBUG    SignUpPage:selenium_driver.py:292 After finding element, size is: 20
+INFO     SignUpPage:selenium_driver.py:296 Getting text on element :: 
+INFO     SignUpPage:selenium_driver.py:297 The text is :: 'Email already exists'
+INFO     Util:util.py:109 Actual Text From Application Web UI --> :: Email already exists
+INFO     Util:util.py:110 Expected Text From Application Web UI --> :: Email already exists
+INFO     Util:util.py:112 ### VERIFICATIONS MATCHED !!!
+INFO     TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: Singup with existing email alert error message verified
+INFO     TestStatus:selenium_driver.py:42 Screenshot save to directory: /home/runner/work/FlyerrUIAutomation/FlyerrUIAutomation/base/../screenshots/Singup with existing email alert error message verified.1660215348739.png
