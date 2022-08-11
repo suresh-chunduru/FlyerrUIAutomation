@@ -31,7 +31,7 @@ jobs:
 
       - name: Test with pytest
         run: |
-          py.test -n 10 --alluredir=allure_report tests/test_suite_demo.py
+          py.test -n 10 --alluredir=allure_report tests/test_signup.py
 
       - name: Get Allure history
         uses: actions/checkout@v3
@@ -66,5 +66,5 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
           repository: Flyerr-Pty-Ltd/flyerr-tests
-          event-type: DeploymentCompleted
+          event-type: DeployementCompleted
 
