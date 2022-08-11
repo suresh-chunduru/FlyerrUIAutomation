@@ -65,6 +65,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PAT_TOKEN }}
-          repository: username/my-repo
+          repository: Flyerr-Pty-Ltd/flyerr-tests
           event-type: DeploymentCompleted
 
